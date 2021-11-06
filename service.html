@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Services - ROSA</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main main3" id="sec1">
+			<div class="header">
+				<div class="logo">
+					<img src="img/logo.png" class="logo">
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="service.html">Services</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="center-text">
+				<h1>Our Services</h1>
+				<h2>THE ROSA</h2>
+				<p>---------- <span style="color: #C59D5F;">✻</span> ----------</p>
+				<h3>READY TO BE OPENED</h3>
+				<a href="#sec2"><button>Explore</button></a>
+			</div>
+			<div class="bottom-arrow">
+				<a href="#sec2"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<div class="svc-sec2" id="sec2">
+			<div class="sec2-desc">
+				<div class="sec-l-cont">
+					<h1>Calculator</h1>
+					<h2>FOR YOUR CONVENIENCE</h2>
+					<p>---------- <span style="color: #C59D5F;">✻</span> ----------</p>
+					<h3>Here you can calculate the billing amount or if you want to divide the bill with your other firends <span style="font-style: normal;">😄</span></h3>
+				</div>
+			</div>
+			<div class="calculator">
+				<table class="instruct">
+					<tr>
+						<td class="cbox"><div class="box black" id="box1"></div></td>
+						<td class="cbox"><p class="text">Black colored boxes are working keys</p></td>
+					</tr>
+					<tr>
+						<td class="cbox"><div class="box white" id="box2"></div></td>
+						<td class="cbox"><p class="text">White colored boxes are dummy keys</p></td>
+					</tr>
+				</table>
+				<div class="content">
+					<table class="screen">
+						<tr>
+							<td class="vcont"><input type="text" class="value" id="value1" placeholder="5" value=""></td>
+							<td class="vcont"><input type="text" class="value" id="operand" placeholder="+" value=""></td>
+							<td class="vcont"><input type="text" class="value" id="value2" placeholder="10" value=""></td>
+						</tr>
+					</table>
+					<table class="buttons" id="buttons">
+						<tr>
+							<td><input type="button" class="num" value="CE"></td>
+							<td><input type="button" class="num" id="clean" value="C" style="background: #2f2f2f; color: #ffffff;"></td>
+							<td><input type="button" class="num" value="<"></td>
+							<td><input type="button" class="num" value="÷"></td>
+						</tr>
+						<tr>
+							<td><input type="button" class="num" id="num7" value="7"></td>
+							<td><input type="button" class="num" id="num6" value="8"></td>
+							<td><input type="button" class="num" value="9"></td>
+							<td><input type="button" class="num" value="x"></td>
+						</tr>
+						<tr>
+							<td><input type="button" class="num" value="4"></td>
+							<td><input type="button" class="num" value="5"></td>
+							<td><input type="button" class="num" value="6"></td>
+							<td><input type="button" class="num" value="-"></td>
+						</tr>
+						<tr>
+							<td><input type="button" class="num" value="1"></td>
+							<td><input type="button" class="num" value="2"></td>
+							<td><input type="button" class="num" value="3"></td>
+							<td><input type="button" class="num" id="plus" value="+"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="button" class="num" value="0"></td>
+							<td><input type="button" class="num" value="."></td>
+							<td><input type="button" class="num" id="equal" value="=" style="background: #2f2f2f; color: #ffffff;"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="svc-sec2" id="sec2">
+			<div class="sec2-desc">
+				<div class="sec-l-cont">
+					<h1>Tip Calculator</h1>
+					<h2>FOR YOUR CONVENIENCE</h2>
+					<p>---------- <span style="color: #C59D5F;">✻</span> ----------</p>
+					<h3>Here you can calculate tip for our hardworking staff. You can also divide them with your friends. Just a tip! <span style="font-style: normal;">😄</span></h3>
+				</div>
+			</div>
+			<div class="tip-calculator">
+				<div class="tip-content">
+					<form>
+						<label for="bill">
+							Bill
+							<input class="tip" type="textbox" id="bill" name="tip" placeholder="Enter your total bill" value="">
+						</label>
+						<br>
+						<label for="tip">
+							Tip
+							<input class="tip" type="textbox" id="tip" name="tip" value="15%" disabled="true">
+						</label>
+						<br>
+						<label for="friends">
+							Friends
+							<input class="tip" type="textbox" id="friends" name="tip" placeholder="Number of friends" value="">
+						</label>
+						<br>
+						<label for="tipAmount">
+							Tip Amount
+							<input class="tip" type="textbox" id="tipAmount" name="tip" disabled="true" placeholder="0" value="">
+						</label>
+						<br>
+						<label for="total">
+							Total
+							<input class="tip" type="textbox" id="total" name="tip" disabled="true" placeholder="0" value="">
+						</label>
+						<br>
+						<label for="divide">
+							Per/friend
+							<input class="tip" type="textbox" id="divide" name="tip" disabled="true" placeholder="0" value="">
+						</label>
+						<br>
+						<input type="button" class="submit" id="submit" value="Calculate" name="tip">
+						<input type="button" class="submit" id="clear" value="Clear" name="tip">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer1" id="contact">
+			<div class="footer-desc">
+				<h2>ABOUT ROSA</h2>
+				<p>---------- <span style="color: #C59D5F;">✻</span> ----------</p>
+				<p>A restaurant depicting the legendary grandeur of splendid and noble past. A vivid and conspicuous realization of the glory of our brilliant esthetical essence. All the way a combination and innovation. Adorned with courtesy of traditional era we offer you to dine our traditional Pakistani cuisine</p>
+			</div>
+			<div class="scroll-top">
+				<a href="#sec1"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<div class="footer2">
+			<div class="footer2-desc">
+				<p>© ROSA 2020  •   Mohammad Ali Jinnah University, Karachi   •   Tel: 090078601   •   Handcrafted with love by <span style="color: #C59D5F;">Muzammil, Hamza & Sami</span></p>
+			</div>
+		</div>
+	</div>
+			
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
